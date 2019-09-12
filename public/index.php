@@ -10,6 +10,7 @@ $app = new  \Slim\App;
 
 require  '../src/rutas/Articulo.php';
 require  '../src/rutas/Login.php';
+require  '../src/rutas/Estudiante.php';
 /*$app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
     $name = $args['name'];
     $response->getBody()->write("Hello, $name");

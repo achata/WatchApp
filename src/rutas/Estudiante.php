@@ -3,7 +3,7 @@ use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
 
-$app->post('/api/estudiante/{id}',function(Request $request, Response $response){
+$app->get('/api/estudiante/{id}',function(Request $request, Response $response){
     
     $id = $request->getAttribute('id');
     $usp = "USP_SEL_ESTUDIANTE_ID($id)";
